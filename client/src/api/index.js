@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://imagegenerator-backend-rq6x.onrender.com/api",
 });
 
 export const GetPosts = async () => await API.get("/post/");
